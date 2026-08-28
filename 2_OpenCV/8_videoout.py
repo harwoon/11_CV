@@ -4,7 +4,7 @@ import sys
 cap1 = cv2.VideoCapture("./movies/232538_tiny.mp4")
 cap2 = cv2.VideoCapture("./movies/276624_tiny.mp4")
 
-if not cap1.isOpened or not cap2.isOpened():
+if not cap1.isOpened() or not cap2.isOpened():
     print('입력 동영상 중 하나 이상을 열 수 없습니다.')
     sys.exit()
 
