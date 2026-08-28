@@ -40,3 +40,12 @@ plt.xlim([0,256])
 plt.legend()
 plt.tight_layout()
 plt.show()
+
+b,g,r = cv2.split(img_color)
+cv2.imshow('original', img_color)
+cv2.imshow('B channel', b) # 파랑이 많이 들어간게 하얗게 보임
+cv2.imshow('G channel', g)
+cv2.imshow('R channel', r)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
