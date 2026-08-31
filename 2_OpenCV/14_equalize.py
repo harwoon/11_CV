@@ -11,7 +11,7 @@ img_color = cv2.imread("./images/field.bmp")
 YCrcb
 - 컬러 이미지를 표현하는 또 다른 색 공간
 - 밝기와 색상 정보를 분리해서 저장
-- Y: 밝기 정보(숫자로), Cr(붉은 성향 red), Bb(푸른 성향 blue) (두 개 더하거나 빼면 초록 나옴): 색상 정보
+- Y: 밝기 정보(숫자로), Cr(붉은 성향 red), Cb(푸른 성향 blue) (두 개 더하거나 빼면 초록 나옴): 색상 정보
 """
 
 ycrcb = cv2.cvtColor(img_color, cv2.COLOR_BGR2YCrCb) #색상 포맷 바꾸기
