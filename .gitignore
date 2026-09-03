@@ -1,1 +1,4 @@
 .venv
+VOCdevkit/
+data/VOCtest_06-Nov-2007.zip
+data/VOCtrainval_06-Nov-2007.zip
